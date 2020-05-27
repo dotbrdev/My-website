@@ -271,6 +271,15 @@ ul {
  h1
 {
     font-size: 3em;}
+
+.about-text h5 {
+    font-size: 22px !important;
+}
+
+#list {
+    text-align: center;
+    margin-left: -100px;
+}
 }
 
 @media only screen and (min-width: 300px) and (max-width: 991px) {
@@ -278,6 +287,11 @@ ul {
  .navbar-brand
 {
     margin-top: 3px;
+}
+.imag {
+
+    text-align: center !important;
+
 }
 }
 
@@ -408,10 +422,38 @@ ul {
 
 @media only screen and (min-width: 574px) and (max-width: 769px) {
 h1 {
-    font-size:2.2em;
+    font-size:3em;
+    text-align: center;
+}
+.impact-contact {
+    text-align: center;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+#impact-image {
+    max-width: 80%;
+    text-align: center;
+    margin-left: 3em;
+    margin-right: 3em;
 }
 img {
-    max-width: 70%;
+    margin-top: 20px;
+}
+.about-text h5 {
+    font-size: 19px !important;
+}
+#list {
+    text-align: center;
+    margin-left: -100px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 769px) {
+h1 {
+    font-size:3em;
+}
+img {
+    max-width: 100%;
 }
 }
 
@@ -472,15 +514,41 @@ h1 {
     font-size:2em;
 }
 img {
-    max-width: 70%;
+    max-width: 100%;
+    margin-top: 20px;
 }
 .about {
     height: auto;
     margin-top:80px !important;
 }
 
+.impact-contact {
+    text-align: center;
+    margin-left: 3em;
+    margin-right: 3em;
+    font-size: 23px !important;
+}
+#impact-image {
+    text-align: center;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+}
+
 @media only screen and (min-width: 300px) and (max-width: 585px) {
 h5 {
     padding: 7px;
+}
+#list {
+    text-align: center;
+    margin-left: -100px;
+}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+
+#last-link {
+    text-align: center;
 }
 }
